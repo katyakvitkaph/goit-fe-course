@@ -65,13 +65,18 @@ ul {
 p {
     font-size: 14px;
 }
+
+.name {
+    margin: 0;
+    margin-bottom: 30px;
+}
 .list .name {
     font-family: "Ubuntu Light";
     color: #b4ad9e;
     line-height: 17px;
     text-transform: uppercase;
 }
-.list h3{
+.list text {
 font-size: 30px;
 line-height: 36px;
 margin-bottom: 35.5px;
@@ -94,6 +99,11 @@ margin-bottom: 35.5px;
     margin-bottom: 0;
 }
 
+.picture { 
+    margin-bottom: 30px;
+}
+
+
 .load-more {
 border-color: #626262;
 padding: 20px 33px;
@@ -101,8 +111,8 @@ font-size: 20px;
 background-color: #ffffff;
 color: #626262;
 border: 1px solid #626262;
-position: absolute;
-left: 42%;
+display: block;
+margin: 0 auto;
 }
 
 .visually-hidden {
