@@ -31,11 +31,15 @@ body {
     padding: 0;
     text-align: center;
     vertical-align: middle;
+	font-size: 0;
+	
 }
 .site-navigation a {
     text-transform: uppercase;
     text-decoration: none;  
     color: #626262; 
+	display: block;
+	font-size: 14px;
 } 
 .site-navigation li {
     display: inline-block; 
