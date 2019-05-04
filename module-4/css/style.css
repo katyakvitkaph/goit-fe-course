@@ -101,6 +101,16 @@ color: #74d5c1;
 
 }
 
+.title::after {
+    display: block;
+    width: 163px;
+    height: 7px;
+    background-color: #74d5c1;
+    content: '';
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
 .info {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -148,8 +158,18 @@ margin-right: 30px;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    margin: 15px auto;
+    margin: 0 auto;
     padding: 0;
+}
+
+.title-news::after {
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #74d5c1;
+    content: '';
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .list-news .title {
