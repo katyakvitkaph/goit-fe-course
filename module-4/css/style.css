@@ -1,0 +1,24 @@
+body {
+font-family: "Roboto","OpenSans", sans-serif;
+color: #555252;
+font-size: 14px;
+line-height: 26px;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.logo::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.site-navigation {
+    font-family: "OpenSans" , sans-serif;
+    font-size: 14px;
+    line-height: 11px;
+}
