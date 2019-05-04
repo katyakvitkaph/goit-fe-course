@@ -15,6 +15,12 @@ font-size: 14px;
 line-height: 26px;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
 
 .clearfix::after {
 display: table;
@@ -117,23 +123,39 @@ color: #74d5c1;
     line-height: 32px;
     text-transform: uppercase;
     font-weight: 900;
-    background: pink;
+    background: #323232;
+    padding: 14px auto;
+    width: 255px;
+    
+}
+
+.title-products,
+.right {
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    float: right;
+    background-color: #8c8c8c;
+    width: 54px;
+    text-align: center;
 }
 .features-list {
     list-style: none;   
     margin: 0;
     padding: 0;
 
-   
 }
 
+
 .features-list .title-products {
-    color: green;
+    color: #ffffff;
     
 }
 
 .features-list .right {
-    color: red;
+    color: #ffffff;
   
 }
 
@@ -216,4 +238,15 @@ margin-right: 30px;
     background-color: #74d5c1;
     padding: 20px 45px;
     border-radius: 4px;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+    overflow: hidden;
 }
