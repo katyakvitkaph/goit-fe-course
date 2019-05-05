@@ -79,6 +79,7 @@ margin-bottom: 35.5px;
 
 .text {
     font-size: 30px;
+    margin: 0; 
 }
 
 .list-block {
