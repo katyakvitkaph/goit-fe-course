@@ -104,6 +104,7 @@ color: #74d5c1;
     text-align: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 92px;
 
 }
 
@@ -124,22 +125,21 @@ color: #74d5c1;
     text-transform: uppercase;
     font-weight: 900;
     background: #323232;
-    padding: 14px auto;
     width: 255px;
+    padding: 14px auto;
+    margin: 0;
+    
     
 }
-
-.title-products,
-.right {
-    margin: 0;
-    padding: 0;
+.title-products {
+    width: 201px;
 }
-
 .right {
     float: right;
     background-color: #8c8c8c;
     width: 54px;
     text-align: center;
+    margin: 0;
 }
 .features-list {
     list-style: none;   
@@ -149,14 +149,9 @@ color: #74d5c1;
 }
 
 
-.features-list .title-products {
-    color: #ffffff;
-    
-}
-
+.features-list .title-products,
 .features-list .right {
-    color: #ffffff;
-  
+    color: #ffffff; 
 }
 
 
@@ -169,6 +164,10 @@ margin-right: 30px;
 
 .features-list li:nth-child(4n) {
     margin-right: 0;
+}
+
+.img-products {
+    margin: 0;
 }
 
     
@@ -195,7 +194,7 @@ margin-right: 30px;
 }
 
 .list-news .title {
-    margin-bottom: 120px;
+    margin-bottom: 81px;
 }
 
 
@@ -249,4 +248,8 @@ margin-right: 30px;
 	height: 1px !important; 
 	width: 1px !important; 
     overflow: hidden;
+}
+
+.img-news {
+    margin-bottom: 15px;
 }
