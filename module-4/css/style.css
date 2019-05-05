@@ -124,22 +124,27 @@ color: #74d5c1;
     float: left;
     width: 255px;
     height: 322px;
-  
     margin-right: 30px;
     list-style: none;
     position: relative;
-   
-    }
+   }
+
+   .features-list-item:nth-child(-n + 4) {
+    margin-bottom: 60px;
+   }
+
+
+
     .features-list li:hover .title-products {
         background-color: #74d5c1;
       }
       .features-list li:hover .right {
         background-color: #7fd9c7;
       }
-      
+
 .title-products,
 .right {
-    float: right;
+    float: left;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 32px;
@@ -183,10 +188,9 @@ color: #74d5c1;
     margin-right: 0;
 }
 
-.img-products {
-    margin: 0;
+.products {
+    padding-bottom: 105px;
 }
-
     
 
 /* NEWS */
