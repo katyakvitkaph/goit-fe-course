@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+* 
+* *,
+*::before,
+*::after {
+    box-sizing: inherit;
+} 
+body {
+    font-family: "Myriad Pro" , sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+    }
+
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+.nav-header a {
+
+text-decoration: none;
+font-family: "Myriad Pro" , sans-serif;
+color: #ffffff;
+text-decoration: none;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+}
+
+.nav-header {
+padding-top: 58px;
+padding-left: 120px;
+}
+
+
+.site-navigation {
+float: right;
+list-style: none;
+width: 555px;
+padding-top: 58px;
+margin: 0;
+padding: 0;
+
+}
+
+.site-navigation li {
+    float: left;
+   
+    
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 31px;
+    
+    }
+
+.site-navigation a {
+    font-family: "Myriad Pro" , sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 22px;
+    text-transform: uppercase;  
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus  {
+   color: #cc685e;
+  }  
+
+
+  /* BANNER */
+.banner {
+    min-height: 500px;
+    background-image: linear-gradient(rgba(204,204,204, 0.5), rgba(204,204,204, 0.5)),
+    url(../images/class-2/bb.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* INTRODACTION */
+.center h2 {
+    font-family: "Rokkitt",  sans-serif;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 153px;
+    padding-bottom: 13px;
+}
+
+.center p{
+    font-family: "Quicksand",  sans-serif;
+    font-size: 22px;
+    line-height: 26.4px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 172px;
+}
+
+.center h2::after {
+    display: block;
+    width: 800px;
+    height: 1px;
+    background-color: #ffffff;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
