@@ -299,7 +299,6 @@ position: absolute;
     display: inline-block;
     border: 1px solid #fff;
     background-color: #323232;
-    
     padding: 0;
     margin: 0;
     width: 164px;
@@ -312,14 +311,24 @@ position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 139px;
-    background-image: url(../images/01.png);
-    background-repeat: no-repeat;
-    background-position: left;
     opacity: 0;
+    padding-left: 30px;
+   
    
 }
 
-
+.card-button::after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-image: url('../images/01.png');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: 5px;
+    left: 10px;
+  
+}
 
 
 .ul-links {
@@ -397,6 +406,11 @@ padding: 0;
 .li-link:hover {
     background-color: #1abc9c; 
 }
+
+.card-button:hover {
+    background-color: #1abc9c; 
+}
+
 
 .features-list li:hover .right {
     background-color: #1abc9c;
