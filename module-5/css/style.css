@@ -355,6 +355,8 @@ position: absolute;
 
 }
 
+
+
 .ul-links a {
     display: block;
     width: 48px;
@@ -385,14 +387,24 @@ padding: 0;
     background-position: center;
 }
 
-.features-list li:hover .title-products, .nav {
+.features-list li:hover .title-products {
     background-color: #1abc9c;
+}
+
+.li-link {
+    background-color: transparent;
+}
+.li-link:hover {
+    background-color: #1abc9c; 
 }
 
 .features-list li:hover .right {
     background-color: #1abc9c;
     opacity: 0.5;
 }
+
+/*FOOTER*/
+
 
 .footer p {
     font-family: "OpenSans" , sans-serif;
