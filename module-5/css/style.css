@@ -97,7 +97,7 @@ color: #74d5c1;
 .picture-banner {
   
     background-image: linear-gradient(rgba(0,0,12, 0.5), rgba(0,0,2, 0.5)),
-    url('../images/1.png');
+    url(../images/1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,7 +132,7 @@ height: 600px;
 }
 
 .right-but {
-    background: url('../images/11.png') no-repeat;
+    background: url(../images/11.png) no-repeat;
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -150,7 +150,7 @@ height: 600px;
 }
 
 .left-but {
-    background: url('../images/22.png')  no-repeat;
+    background: url(../images/22.png)  no-repeat;
     display: inline-block;
     position: absolute;
     right: 0;
@@ -321,7 +321,7 @@ position: absolute;
     display: block;
     position: absolute;
     content: "";
-    background-image: url('../images/01.png');
+    background-image: url(../images/01.png);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
@@ -379,19 +379,19 @@ padding: 0;
 
 
 .heart {
-    background-image: url('../images/02.png');
+    background-image: url(../images/02.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .nav {
-    background-image: url('../images/03.png');
+    background-image: url(../images/03.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .clock {
-    background-image: url('../images/04.png');
+    background-image: url(../images/04.png);
     background-repeat: no-repeat;
     background-position: center;
 }
