@@ -201,16 +201,163 @@ margin-top: 42px;
 }
 
 .text-title {
-    margin-bottom: 95px;
+    margin-bottom: 90px;
+   
+    text-align: center;
+}
+
+
+
+.background-low {
+    background-color: #95e1d3;
+    width: 380px;
+    height: 470px;
+    position: relative;
+}
+
+.background-high {
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8));
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+   
+}
+.middle:hover {
+    transform: translate(-10px,-10px);
+      
+}
+
+.middle {
+    transition: 200ms;
+    margin-bottom: 30px;
+}
+.background-high:hover {
+opacity: 1;
+
+} 
+
+.li-team a  {
+    display: block;
+    content: "";
+    height: 57px;
+    width: 57px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #fce38a;
+   
+    
+}
+
+.li-team a {
+    margin-right: 1px;
+}
+
+.li-team:hover a {
+background-color:#95e1d3;
 }
 
 .list-team-icons {
     list-style: none;
+    display: flex;
+   justify-content: center;
+   
+
 }
 
-.men {
+.li-team:not(:last-child){
+    margin-right: 1px;
+}
+
+.li-team a:first-of-type{
+    background-image: url("../images/icons/facebook.png")
+}
+
+.li-team:nth-of-type(2) a {
+    background-image: url("../images/icons/twitter.png")
+}
+
+.li-team:nth-of-type(3) a {
+    background-image: url("../images/icons/pinterest.png")
+}
+
+.li-team:nth-of-type(4) a {
+    background-image: url("../images/icons/instagram.png")
+}
+
+.name-team {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #333333;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.team {
+    padding-bottom: 87px;
+}
+
+.background-low{
+    margin-bottom: 31px;
+}
+
+/* FORM */
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding: 15px 13px;
+
+width: 229px;
+}
+
+.email::placeholder {
+    color: #cccccc;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    align-items: baseline;
+}
+
+.sub {
     background-color: #95e1d3;
-    width: 380px;
-    height: 420px;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 16px 33px;
+    border: none;
+
 }
 
+.form-footer {
+    display: flex;
+   
+}
+
+.red {
+    color: #f38181;
+}
+
+.main-footer {
+    border-top: 1px solid #cccccc;
+}
