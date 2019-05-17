@@ -83,7 +83,6 @@ html {
 }
 
 * {
-    font-family: 'Roboto Slab', 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 16.8px;
     color: #777777;
@@ -148,7 +147,10 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+.main-logo {
+    display: block;
 
+}
 .logo {
     display: flex;
     justify-content: flex-start;
@@ -269,7 +271,6 @@ img {
     background-image: url(../images/Map\ Image.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    /* min-height: 100vh; */
     padding-bottom: 115px;
 }
 
@@ -331,8 +332,7 @@ img {
     border-radius: 2px;
     bottom: 0;  
   
-    /* display: flex; */
-    /* justify-content: center; */
+
    
 }
 
@@ -340,3 +340,12 @@ img {
     display: flex;
     justify-content: center;
 }
+
+
+input:invalid {
+    border: 2px solid rgb(255, 0, 0);
+  }
+  
+  input:valid {
+    border: 2px solid rgb(0, 255, 0);
+  }
