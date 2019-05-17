@@ -1,0 +1,6 @@
+.eye {
+    fill: thistle;
+}
+.eye:hover {
+    fill: pink;
+}

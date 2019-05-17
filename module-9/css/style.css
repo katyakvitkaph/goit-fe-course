@@ -1,0 +1,254 @@
+* {
+    outline: 1px solid red;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #666666
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* HEADER */
+
+.container-fluid {
+    background-image: linear-gradient(rgba(26, 25, 21, 0.2), rgba(26, 25, 21, 0.2)),
+        url(../Images/Vector\ Smart\ Object.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo-text {
+    display: block;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+
+
+}
+
+.logo {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.title-second {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -0.02em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.text-main {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.first-but {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 30px;
+}
+
+.second {
+    margin-bottom: 70px;
+}
+
+.pic {
+    margin: 0 auto;
+}
+
+
+
+.other {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #ff4e50;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #ff4e50;
+    padding: 12px 70px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.name-team {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #333333;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.title-team {
+    padding-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 26.4px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+
+}
+.text p {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 14px;
+    color: #666666;
+ }
+
+@media (max-width: 767px) {
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        .navigation {
+            margin-bottom: 129px;
+            padding-top: 33px;
+        }
+        @media (min-width: 320px) and (max-width: 767px) {
+            .li-team {margin-bottom: 26px;
+            }
+
+        .pad {
+            padding-bottom: 138px;
+        }
+    }
+        .image-team {
+            margin-bottom: 20px;
+        }
+    }
+
+    .title-second {
+        font-size: 30px;
+        letter-spacing: -0.02em;
+        line-height: 36px;
+    }
+
+    .text-main {
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+
+    .first-but {
+        padding: 14px 50px;
+    }
+
+    .all-header {
+        margin-bottom: 40px;
+    }
+    .title-team {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .title-second {
+
+        font-size: 52px;
+        line-height: 62.4px;
+
+    }
+
+    .text-main {
+        font-size: 24px;
+        line-height: 28.8px;
+
+    }
+
+    header {
+        margin-bottom: 157px;
+        padding-top: 45px;
+    }
+
+    .first-but {
+        padding: 14px 23px;
+
+    }
+
+    .pad {
+        padding-bottom: 234px;
+    }
+
+    .image-team {
+        margin-bottom: 20px;
+    }
+
+   .title-team {
+       margin-bottom: 33px;
+   }
+
+   .all-items {
+    margin-bottom: 39px;
+}
+   @media (min-width: 768px) and (max-width: 959px) {
+   .li-team:nth-of-type(-n+2) {
+       margin-bottom: 60px;
+   }
+   
+}
+}
+ @media (min-width: 960px) {
+    .second {
+
+     padding-bottom: 73px;
+    }
+ }
