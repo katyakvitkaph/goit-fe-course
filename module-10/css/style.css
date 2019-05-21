@@ -67,7 +67,7 @@ img {
 
 }
 
-.site-navigation__item--link {
+.site-navigation__link {
     text-decoration: none;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -90,7 +90,7 @@ img {
     margin-bottom: 185px;
 }
 
-.site-navigation__item--link:hover {
+.site-navigation__link:hover {
     color: #fce38a;
 
 }
@@ -151,7 +151,7 @@ img {
     margin-bottom: 125px;
 }
 
-.second-but {
+.second-part__but {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 16.8px;
@@ -170,7 +170,7 @@ img {
 
 /* SERVICE */
 
-.first-title {
+.section__first-title {
     font-family: "Kaushan Script";
     font-size: 24px;
     line-height: 28.8px;
@@ -180,7 +180,7 @@ img {
 
 }
 
-.second-title {
+.section__second-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -191,7 +191,7 @@ img {
     text-transform: uppercase;
 
 }
-.second-title::after {
+.section__second-title::after {
     display: block;
     content: "";
     width: 60px;
