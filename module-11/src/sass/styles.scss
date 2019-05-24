@@ -1,0 +1,23 @@
+/*
+   Import partials below
+*/
+@import './normalize.scss';
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:400,700');
+@import './helpers/variables.scss';
+@import './base.scss';
+@import './helpers/placeholder.scss';
+
+
+
+/* COMPONENTS*/
+
+@import './components/container.scss';
+@import './components/picture-back.scss';
+@import './components/main-header.scss';
+@import './components/site-navigation.scss';
+@import './components/second-part.scss';
+@import './components/services.scss';
+@import './components/team.scss';
+@import './components/list.scss';
+@import './components/form.scss';
+

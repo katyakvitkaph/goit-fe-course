@@ -1,0 +1,65 @@
+.main-footer__email {
+    @extend %footer-main;
+    padding: 15px 13px;
+
+    width: 229px;
+}
+
+
+.main-footer__email::placeholder {
+    color: $primarily-grey;
+}
+
+.wrapper {
+  
+    display: flex;
+   
+            justify-content: space-between;
+    padding: 12px 0;
+  
+            align-items: baseline;
+}
+
+.main-footer__sub {
+    @extend %footer-second;
+    background-color: $primarily-blue;
+    color: $primarily-blue;
+  
+    text-transform: uppercase;
+    color: #fff;
+    padding: 16px 33px;
+    border: none;
+
+}
+
+.main-footer__form {
+  
+    display: flex;
+
+}
+
+.red {
+    color: $primarily-pink;
+}
+
+.main-footer {
+    border-top: 1px solid $primarily-grey;
+}
+
+.main-footer__text {
+  @extend %footer-second;
+    color: $primarily-dark;
+}
+@media  (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .picture-back {
+       
+        background-image: linear-gradient(rgba(243, 129, 129, 0.7), rgba(252, 227, 138, 0.7)),
+        url(../images/pic-back.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+     
+    }
+}

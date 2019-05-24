@@ -1,0 +1,28 @@
+html {
+            box-sizing: border-box;
+}
+
+* {
+  
+    font-size: 15px;
+    line-height: 24px;
+    color: $primarily-grey;
+}
+
+*,
+*::before,
+*::after {
+            box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
